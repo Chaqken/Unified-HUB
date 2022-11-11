@@ -1,4 +1,4 @@
----@diagnostic disable: undefined-global, deprecated, lowercase-global
+
 -- Coded by Chaqken.
 -- If you have any questions, tips, suggestions or bugs lmk - Chaqken#5838
 
