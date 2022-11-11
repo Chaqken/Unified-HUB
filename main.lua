@@ -74,7 +74,7 @@ local Toggle = Tab:CreateToggle({
 
 local Slider = Tab:CreateSlider({
     Name = "Rebirth Setting",
-    Range = { 0 , 15 },
+    Range = { 0 , 35 },
     Increment = 1,
     Suffix = "level Rebirths",
     CurrentValue = 0,
