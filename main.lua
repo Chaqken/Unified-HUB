@@ -1,4 +1,3 @@
-
 -- Coded by Chaqken.
 -- If you have any questions, tips, suggestions or bugs lmk - Chaqken#5838
 
@@ -75,10 +74,10 @@ local Toggle = Tab:CreateToggle({
 
 local Slider = Tab:CreateSlider({
     Name = "Rebirth Setting",
-    Range = { 1, 15 },
+    Range = { 0 , 15 },
     Increment = 1,
     Suffix = "level Rebirths",
-    CurrentValue = 1,
+    CurrentValue = 0,
     Flag = "Slider1",
     Callback = function(Value)
         amount = Value
@@ -244,7 +243,7 @@ function doEgg()
                 [2] = thing
             }
             game:GetService("ReplicatedStorage").Shared.Modules.Utilities.NetworkUtility.Events.UpdatePets:FireServer(unpack(args))
-            wait(5)
+            wait(4)
         end
     end)
 end
